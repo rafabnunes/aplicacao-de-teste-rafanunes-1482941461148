@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-rafanunes
+  host: aplicacao-de-teste-rafanunes
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-rafanunes-AdvancedMobileAccess
+  - aplicacao-de-teste-rafanunes-imfpush
+  - aplicacao-de-teste-rafanunes-cloudantNoSQLDB
